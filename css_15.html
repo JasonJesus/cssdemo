@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>css中overflow</title>
+        <style>
+            .hidden {
+                background: green;
+                color: white;
+                padding: 20px;
+                width: 80%;
+                height: 100px;
+                overflow: hidden;
+                border: 1px solid pink;
+            }
+            .scroll {
+                background: green;
+                color: white;
+                padding: 20px;
+                width: 80%;
+                height: 100px;
+                overflow: scroll;
+                border: 1px solid pink;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="scroll">
+            <p>这里的文本内容是可以滚动的</p>
+            <p>这里的文本内容是可以滚动的</p>
+            <p>这里的文本内容是可以滚动的</p>
+            <p>这里的文本内容是可以滚动的</p>
+            <p>这里的文本内容是可以滚动的</p>
+            <p>这里的文本内容是可以滚动的</p>
+            <p>这里的文本内容是可以滚动的</p>
+            <p>这里的文本内容是可以滚动的</p>
+        </div>
+        <div class="hidden">
+            <p>这里的文本内容是不可以滚动的</p>
+            <p>这里的文本内容是不可以滚动的</p>
+            <p>这里的文本内容是不可以滚动的</p>
+            <p>这里的文本内容是不可以滚动的</p>
+            <p>这里的文本内容是不可以滚动的</p>
+            <p>这里的文本内容是不可以滚动的</p>
+            <p>这里的文本内容是不可以滚动的</p>
+            <p>这里的文本内容是不可以滚动的</p>
+        </div>
+    </body>
+</html>

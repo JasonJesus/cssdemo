@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>css中position</title>
+        <style>
+            .static{
+                position: static;
+                border: 3px solid green;}
+            .relative{
+                position: relative;
+                border: 3px solid blue;
+                right: 20px;
+            }
+            .fixed{
+                position: fixed;
+                border: 3px solid black;
+                top: 10px;
+                right: 20px;
+            }
+            .absolute{
+                position:absolute;
+	            left:100px;
+	            top:150px;
+                border: 3px solid red;
+            }
+            .sticky{
+                position: sticky;
+                top: 0;
+                background-color: green;
+                border: 2px solid #4CAF50;
+            }
+        </style>
+    </head>
+    <body>
+        <p class = "static">使用了static</p>
+        <p class = "relative">使用了relative</p>
+        <p class = "fixed">使用了fixed</p>
+        <p class = "absolute">使用了absolute</p>
+        <p class = "sticky">使用了sticky</p>
+        <p></p>
+        <p></p>
+    </body>
+</html>
